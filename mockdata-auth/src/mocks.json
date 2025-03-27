@@ -1,0 +1,106 @@
+{
+  "users": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "email": "john.doe@example.com",
+      "password": "$2b$10$randomhashpasswordstring1"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "email": "jane.smith@example.com",
+      "password": "$2b$10$randomhashpasswordstring2"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "email": "mike.brown@example.com",
+      "password": "$2b$10$randomhashpasswordstring3"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "email": "sarah.wilson@example.com",
+      "password": "$2b$10$randomhashpasswordstring4"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "email": "robert.johnson@example.com",
+      "password": "$2b$10$randomhashpasswordstring5"
+    }
+  ],
+  "links": [
+    {
+      "id": "750e8400-e29b-41d4-a716-446655440000",
+      "url": "https://www.example.com",
+      "alias": "example",
+      "accessed": 42,
+      "user_id": "550e8400-e29b-41d4-a716-446655440000",
+      "access_log": [
+        {
+          "timestamp": "2023-06-15T10:30:15Z",
+          "ip": "192.168.1.100",
+          "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+        },
+        {
+          "timestamp": "2023-06-15T11:45:22Z",
+          "ip": "10.0.0.50",
+          "user_agent": "Chrome/91.0.4472.124"
+        }
+      ]
+    },
+    {
+      "id": "750e8400-e29b-41d4-a716-446655440001",
+      "url": "https://www.google.com",
+      "alias": "google",
+      "accessed": 128,
+      "user_id": "550e8400-e29b-41d4-a716-446655440001",
+      "access_log": [
+        {
+          "timestamp": "2023-06-16T09:15:30Z",
+          "ip": "172.16.0.75",
+          "user_agent": "Safari/537.36"
+        }
+      ]
+    },
+    {
+      "id": "750e8400-e29b-41d4-a716-446655440002",
+      "url": "https://www.github.com",
+      "alias": "github",
+      "accessed": 87,
+      "user_id": "550e8400-e29b-41d4-a716-446655440002",
+      "access_log": [
+        {
+          "timestamp": "2023-06-14T14:20:45Z",
+          "ip": "192.168.2.200",
+          "user_agent": "Firefox/89.0"
+        }
+      ]
+    },
+    {
+      "id": "750e8400-e29b-41d4-a716-446655440003",
+      "url": "https://www.stackoverflow.com",
+      "alias": "stackoverflow",
+      "accessed": 215,
+      "user_id": "550e8400-e29b-41d4-a716-446655440003",
+      "access_log": [
+        {
+          "timestamp": "2023-06-15T16:55:10Z",
+          "ip": "10.10.1.25",
+          "user_agent": "Edge/91.0.864.48"
+        }
+      ]
+    },
+    {
+      "id": "750e8400-e29b-41d4-a716-446655440004",
+      "url": "https://www.linkedin.com",
+      "alias": "linkedin",
+      "accessed": 53,
+      "user_id": "550e8400-e29b-41d4-a716-446655440004",
+      "access_log": [
+        {
+          "timestamp": "2023-06-16T08:40:55Z",
+          "ip": "192.168.3.150",
+          "user_agent": "Opera/75.0.3969.118"
+        }
+      ]
+    }
+  ]
+}
