@@ -1,7 +1,7 @@
 # url-shortener-ai
 Recreating [url-shortener](https://github.com/AntoDono/url-shortener) using Refine.dev AI.
 
-### The two folder in this repo contains the project built by the AI.
+### The folder in this repo contains the project built by the AI.
 
 ## Prompts
 
